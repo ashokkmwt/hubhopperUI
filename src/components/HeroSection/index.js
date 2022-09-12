@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./index.module.css"
 import cx from 'classnames';
-import GoogleImg from "../../assets/icons/googlelogo.svg";
+import _Google from "../../assets/icons/googlelogo.svg";
 import paytmLogo from "../../assets/icons/paytm.png";
 import spotifyLogo from "../../assets/icons/spotify.png";
 import xiaomiLogo from "../../assets/icons/xiaomi.png";
@@ -32,7 +32,7 @@ export default function HeroSection() {
                         <h4 className={cx(styles.text, styles.textBg)} style={{ backgroundColor: "#fe8337" }}>Start My Podcast</h4>
                         <h5 className={styles.text}>or</h5>
                         <span className={cx(styles.textBg, styles.textBg1)}>
-                            <img width={18} height={18} src={GoogleImg} alt="googlelogo" />
+                            <img width={18} height={18} src={_Google} alt="google" />
                             <span>Continue with google</span>
                         </span>
                         <p className={styles.text} style={{ textAlign: "center" }} >By signing up, you agree to the Terms & Conditions  and the  Privacy Policy.</p>
@@ -40,15 +40,15 @@ export default function HeroSection() {
                 </div>
             </div>
             <div className={styles.scrollBar}>
-                <img className={styles.scrollLogo} src={paytmLogo} alt="paytm img" />
-                <img className={styles.scrollLogo} src={spotifyLogo} alt="spotify img" />
-                <img className={styles.scrollLogo} src={xiaomiLogo} alt="xiaomi img" />
-                <img className={styles.scrollLogo} src={hungamaLogo} alt="hungama img" />
-                <img className={styles.scrollLogo} src={musicLogo} alt="music img" />
-                <img className={styles.scrollLogo} src={PhonePeLogo} alt="PhonePe img" />
-                <img className={styles.scrollLogo} src={WYNKMUSIClogo} alt="WYNKMUSIC img" />
-                <img className={styles.scrollLogo} src={gaanaLogo} alt="gaana img" />
-                <img className={styles.scrollLogo} src={paytmLogo} alt="paytm img" />
+                <img className={styles.scrollLogo} src={paytmLogo} alt="paytm" />
+                <img className={styles.scrollLogo} src={spotifyLogo} alt="spotify" />
+                <img className={styles.scrollLogo} src={xiaomiLogo} alt="xiaomi" />
+                <img className={styles.scrollLogo} src={hungamaLogo} alt="hungama" />
+                <img className={styles.scrollLogo} src={musicLogo} alt="music" />
+                <img className={styles.scrollLogo} src={PhonePeLogo} alt="PhonePe" />
+                <img className={styles.scrollLogo} src={WYNKMUSIClogo} alt="WYNKMUSIC" />
+                <img className={styles.scrollLogo} src={gaanaLogo} alt="gaana" />
+                <img className={styles.scrollLogo} src={paytmLogo} alt="paytm" />
             </div>
         </div>
     )
