@@ -58,11 +58,11 @@ export default function WhyUsSection() {
 
 
                 {whyusboxes.map((box, index) => {
-                    const { _yyy, title, paragraph } = box
+                    const { title, paragraph } = box
                     return (
                         <div key={index} className={styles.mainBox}>
                             <div className={styles.mainBoxImage}>
-                                <img src={_yyy} />
+                                <img src={box.image} alt="" />
                             </div>
                             <h1>{title}</h1>
                             <p>{paragraph}</p>
