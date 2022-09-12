@@ -1,0 +1,201 @@
+.whyUsSection {
+    width: 100%;
+    height: 150vh;
+    /* background-color: green; */
+}
+
+.whyusTop {
+    width: 100%;
+    height: 20vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+.whyusTop h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.whyusTop p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.whyusMiddle {
+    width: 100%;
+    height: 90vh;
+    /* background-color: navy; */
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.middleContainer {
+    display: none;
+}
+
+
+.mainBox {
+    flex: 1;
+    flex-basis: 400px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: navy; */
+    align-items: center;
+    gap: 28px;
+}
+
+.mainBox h1 {
+    padding-left: 70px;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainBox p {
+    height: 70%;
+    width: 80%;
+    padding-left: 70px;
+    font-size: 14px;
+}
+
+.whyusBottom {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #eeeeee;
+}
+
+.whyusBottom h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.whyusLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    margin-top: 30px;
+}
+
+
+
+.forbes {
+    width: 134px;
+    height: 38px;
+}
+
+.yourstory {
+    width: 138px;
+    height: 60px;
+}
+
+.fortune {
+    width: 163px;
+    height: 38px;
+}
+
+.mainBoxImage {
+    width: 270px;
+    height: 50%;
+    /* background-color: yellow; */
+    border-radius: 10px;
+}
+
+.mainBoxImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+
+    .whyusMiddle {
+        display: none;
+    }
+
+    .middleContainer {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        /* background-color: green; */
+        padding-left: 10px;
+
+    }
+
+    .middleBox {
+        width: 100%;
+        height: 20vh;
+        /* background-color: yellow; */
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .textContainer h1 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .textContainer p {
+        font-size: 11px;
+
+    }
+
+
+    .mainBox {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .forbes {
+        width: 70px;
+        height: 20px;
+    }
+    
+    .yourstory {
+        width: 78px;
+        height: 20px;
+    }
+    
+    .fortune {
+        width: 85px;
+        height: 20px;
+    }
+
+    .whyusBottom h2{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+    }
+}

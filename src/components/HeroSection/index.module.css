@@ -1,0 +1,120 @@
+.heroSection {
+    width: 100%;
+    height: 90vh;
+    background-color: #0e1a38;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logInSection {
+    width: 100%;
+    height: 91%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hsLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 170px;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hsRight {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hsRightContainer {
+    width: 60%;
+    height: 80%;
+    background-color: #506391;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 18px;
+}
+
+.text {
+    font-size: 11px;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #e5e7ec;
+    font-size: 11px;
+}
+
+.textInput {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #7786a6;
+    color: #e5e7ec;
+    outline: none;
+}
+
+.textBg {
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.textBg1 {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.scrollBar {
+    width: 100%;
+    height: 9%;
+    background-color: #1e2347;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.scrollLogo{
+    width: 90px;
+    height: 30px;
+    /* background-color: yellow; */
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+
+    .heroSection {
+        display: none;
+    }
+
+
+
+}

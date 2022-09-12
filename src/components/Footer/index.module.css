@@ -1,0 +1,143 @@
+footer{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(4, 4, 43);
+
+}
+
+.reviewSection{
+    width: 100%;
+    height: 60vh;
+    background-color: #f5f5f5;
+    
+}
+
+.reviewSectionTop{
+    width: 100%;
+    height: 40%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews{
+    width: 100%;
+    height: 60%;
+    background-color: #f5f5f5;
+}
+
+.information{
+    width: 100%;
+    height: 60vh;
+}
+
+.information span:hover{
+    text-decoration: underline;
+cursor: pointer;
+}
+
+.contact{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.contact h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contactBox{
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-weight: 600;
+}
+
+.contactBox p{
+    cursor: pointer;
+}
+
+.contactBox p:hover{
+    text-decoration: underline;
+}
+
+.follow{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.terms{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .reviewSectionTop{
+    font-size: 22px;
+    font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 20px;
+    }
+
+    .contact h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer{
+        height: 150vh;
+    }
+
+    .information{
+        height: 90vh;
+    }
+
+    .contactBox h4{
+        font-size: 14px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    .contactBox{
+        width: 130px;
+    }
+
+    .contactBox p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+
+    .follow{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .terms{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
