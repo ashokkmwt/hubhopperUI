@@ -41,7 +41,7 @@ header {
 }
 
 .itemText {
-    width: auto;
+    min-width: fit-content;
     height: 20px;
     color: white;
     cursor: pointer;

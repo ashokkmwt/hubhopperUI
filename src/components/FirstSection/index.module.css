@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.fsTop h1 {
+.fsTop h1 { 
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
@@ -106,7 +106,6 @@
 .howToUse {
     width: 100%;
     height: 20vh;
-    /* background-color: red; */
     display: none;
     flex-direction: column;
     align-items: center;

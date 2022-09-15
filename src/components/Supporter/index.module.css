@@ -1,7 +1,6 @@
 .supporters{
     width: 100%;
     height: 50vh;
-    /* background-color: indigo; */
     padding-top: 120px;
     position: relative;
 }
@@ -12,20 +11,24 @@
 
 .companyLogo{
     width: 100%;
-    height: 120px;
+    min-height: 120px;
     padding-top: 50px;
-    /* background-color: green; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 40px;
     color: rgb(18, 18, 117);
+    overflow-x: scroll;
 }
 
 .companyLogo img{
-    width: 100px;
+    max-width: 100px;
     /* background-color: red; */
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 .creativeImage1{
@@ -50,7 +53,7 @@
     }
 
     .companyLogo{
-        width: 100px;
+        max-width: 100%;
         height: 40px;
     }
 }
